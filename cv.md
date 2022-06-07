@@ -3,7 +3,7 @@
 ## Contact Me:
 Phone: **+7 917-787-88-61**
 
-E-mail: [tshatov@gamil.com](tshatov@gamil.com)
+E-mail: [tshatov@gmail.com](tshatov@gamil.com)
 
 GitHub: [@TShatov](https://github.com/TShatov)
 
