@@ -1,3 +1,112 @@
-body {
-    background-color: rgb(195, 203, 204);
+* {
+  box-sizing: border-box;
+  font-family: 'Manrope-ExtraLight';
+}
+
+@font-face {
+  font-family: 'Manrope-ExtraLight';
+  src: url("assets/fonts/Manrope-ExtraLight.ttf");
   }
+
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  src: url("assets/fonts/Raleway-ExtraBold.ttf");
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+
+.header {
+  border: 1px solid red;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: block;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-item {
+  display: block;
+}
+
+.nav-link {
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+.header-photo {
+  width: 30%;
+  display: flex;
+  overflow: hidden;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.header-content {
+  width: 70%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-transform: uppercase;
+  background-color: rgb(170, 170, 170);
+}
+
+.header-title {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header-name {
+  font-family: 'Raleway-ExtraBold';
+  src: url("assets/fonts/Raleway-ExtraBold.ttf");
+  font-size: 36px;
+}
+
+.header-subtitle {
+  font-size: 22px;
+}
+
+.main {
+  border: 1px solid red;
+  margin-bottom: auto;
+}
+
+.main-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.footer {
+  border: 1px solid red;
+}
