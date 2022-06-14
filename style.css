@@ -14,7 +14,6 @@
 }
 
 body {
-    background-color: #E4E4E4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,6 +28,10 @@ body {
     margin: 0 auto;
     min-height: 50px;
   }
+
+.header {
+  background-color: #E4E4E4;
+}
 
 .nav {
   display: block;
@@ -115,6 +118,7 @@ body {
 .section-right {
   width: 70%;
   padding: 10px 20px;
+  background-color: #E4E4E4;
 }
 
 .section-title {
@@ -130,9 +134,18 @@ body {
   padding: 0;
 }
 
+.section-list-strenghts {
+  padding: 20px;
+}
+
 .section-item {
   margin: 0;
   padding: 0;
+}
+
+.strenghts-item {
+  list-style-type: disc;
+  list-style-position: outside;
 }
 
 .contacts-link {
@@ -142,6 +155,7 @@ body {
 
 .footer {
   background-color: #323232;
+  padding: 20px;
 }
 
 .footer-container {
@@ -172,8 +186,5 @@ body {
 }
 
 .rss {
-  background-image: url("./assets/svg/rs_school_js.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
   margin-right: 15px;
 }
