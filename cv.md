@@ -48,4 +48,4 @@ HTMLAcademy (HTML,CSS pre-school)
 ## Languages
 Russian - native speaker.
 
-English - **B1 (B2 in process…)** Studing language at school with in-depth study of English language.
+English - **B1 (B2 in process…)** Studying language at school with in-depth study of English language.
