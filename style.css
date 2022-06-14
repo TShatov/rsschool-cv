@@ -14,21 +14,21 @@
 }
 
 body {
-    background-color: rgb(228, 228, 228);
+    background-color: #E4E4E4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-size: 18px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
   }
 
-.header {
-  border: 1px solid red;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
 
 .nav {
   display: block;
@@ -40,8 +40,6 @@ body {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  padding: 0 20px;
-  line-height: 50px;
 }
 
 .nav-item {
@@ -49,10 +47,16 @@ body {
 }
 
 .nav-link {
-  color: rgb(18, 18, 18);
+  color: #121212;
   text-decoration: none;
-  padding: 0 15px;
-  font-size: 20px;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .header-photo {
@@ -67,46 +71,109 @@ body {
 
 .header-content {
   width: 70%;
-  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-transform: uppercase;
-  background-color: rgb(170, 170, 170);
+  background-color: #323232;
+  align-items: center;
 }
 
 .header-title {
-  height: 60%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
 }
 
 .header-name {
   font-family: 'Raleway-ExtraBold';
-  src: url("assets/fonts/Raleway-ExtraBold.ttf");
-  font-size: 36px;
+  font-size: 56px;
+  color: #E4E4E4;
+  margin: 0;
 }
 
 .header-subtitle {
   font-size: 22px;
+  color: #E4E4E4;
 }
 
 .main {
-  border: 1px solid red;
   margin-bottom: auto;
 }
 
-.main-conteiner {
+.main-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.section {
-  width: 50%;
+.section-left {
+  width: 30%;
+  padding: 10px 20px;
+  background-color: #AAAAAA;
+}
+
+.section-right {
+  width: 70%;
+  padding: 10px 20px;
+}
+
+.section-title {
+  font-family: 'Raleway-ExtraBold';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.section-list {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section-item {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #b61111;
 }
 
 .footer {
-  border: 1px solid red;
+  background-color: #323232;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.pre {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.github {
+  background-image: url(./assets/img/GitHub_Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 60px;
+}
+
+.rss {
+  background-image: url("./assets/svg/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 15px;
 }
