@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Manrope-ExtraLight';
+}
+
+@font-face {
+  font-family: 'Manrope-ExtraLight';
+  src: url("assets/fonts/Manrope-ExtraLight.ttf");
+  }
+
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  src: url("assets/fonts/Raleway-ExtraBold.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+
+.header {
+  background-color: #E4E4E4;
+}
+
+.nav {
+  display: block;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  display: block;
+}
+
+.nav-link {
+  color: #121212;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.header-photo {
+  width: 30%;
+  display: flex;
+  overflow: hidden;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.header-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-transform: uppercase;
+  background-color: #323232;
+  align-items: center;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-name {
+  font-family: 'Raleway-ExtraBold';
+  font-size: 56px;
+  color: #E4E4E4;
+  margin: 0;
+}
+
+.header-subtitle {
+  font-size: 22px;
+  color: #E4E4E4;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-left {
+  width: 30%;
+  padding: 10px 20px;
+  background-color: #AAAAAA;
+}
+
+.section-right {
+  width: 70%;
+  padding: 10px 20px;
+  background-color: #E4E4E4;
+}
+
+.section-title {
+  font-family: 'Raleway-ExtraBold';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.section-list {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section-list-strenghts {
+  padding: 0 20px;
+}
+
+.section-item {
+  margin: 0;
+  padding: 0;
+}
+
+.strenghts-item {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #b61111;
+}
+
+.footer {
+  background-color: #323232;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.pre {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.github {
+  background-image: url(./assets/img/GitHub_Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 60px;
+}
+
+.rss {
+  margin-right: 15px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #b61111;
+}
