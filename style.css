@@ -135,7 +135,7 @@ body {
 }
 
 .section-list-strenghts {
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .section-item {
@@ -187,4 +187,9 @@ body {
 
 .rss {
   margin-right: 15px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #b61111;
 }
