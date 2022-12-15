@@ -56,6 +56,11 @@ body {
   font-size: 18px;
 }
 
+.nav-link:hover {
+  color: #d40909;
+  font-weight: 700;
+}
+
 .header-container {
   display: flex;
   flex-wrap: wrap;
